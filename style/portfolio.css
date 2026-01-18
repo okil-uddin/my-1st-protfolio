@@ -186,3 +186,32 @@ main {
 .resume-button{
     margin-top: 50px;
 }
+
+/* footer section */
+
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-bg{
+    background-color: #FFF8F3;
+}
+footer p{
+    font-weight: 16px;
+    color: #474747;
+}
+.footer-colum{
+    width: 50%;
+}
+footer input[type="text"], footer textarea{
+    height: 50px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    font-size: 20;
+}
